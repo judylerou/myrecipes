@@ -3,23 +3,33 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Testing Specs for Recipes
 
-* Ruby version
+Fields:
 
-* System dependencies
+name: string 
+summary: text
+description: text
 
-* Configuration
 
-* Database creation
+-name is required
+-must be 5-100 characters
 
-* Database initialization
+-summary is required
+-between 10-150 characters
 
-* How to run the test suite
+-description is required
+-between 20-500 characters
 
-* Services (job queues, cache servers, search engines, etc.)
+-chefield is required
 
-* Deployment instructions
+chef specs
+chef name must be present
+chef name must be between 3-40 characters
+email must be present
+email must be valid
+email must be unique
+
 
 * ...
 
